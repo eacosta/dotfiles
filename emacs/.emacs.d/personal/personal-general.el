@@ -126,7 +126,7 @@
 (use-package nyan-mode
   :ensure t
   :config
-  (nyan-mode +1))
+  (nyan-mode -1))
 
 (use-package powerline
   :ensure t

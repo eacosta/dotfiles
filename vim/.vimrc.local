@@ -2,7 +2,7 @@ set t_Co=256
 set background=dark
 colorscheme smyck
 
-let g:snips_author = 'Christian Romney <cromney@pointslope.com>'
+let g:snips_author = 'Earle Acosta <eacosta@pointslope.com>'
 
 " Don't clear the screen when I leave "man" 
 " http://www.shallowsky.com/linux/noaltscreen.html

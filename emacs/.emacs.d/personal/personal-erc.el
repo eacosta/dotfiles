@@ -15,6 +15,6 @@
   (defun personal/connect-to-freenode ()
     (interactive)
     (erc :server "irc.freenode.net"
-         :nick "cromney"
-         :full-name "Christian Romney"))
+         :nick "eacosta"
+         :full-name "Earle Acosta"))
   :bind ("<f12>" . personal/connect-to-freenode))

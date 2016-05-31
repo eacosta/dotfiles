@@ -1,6 +1,6 @@
 [user]
-	name = Christian Romney
-	email = cromney@pointslope.com
+	name = Earle Acosta
+	email = eacosta@pointslope.com
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore_global

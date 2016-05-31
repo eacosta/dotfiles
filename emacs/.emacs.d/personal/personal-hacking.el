@@ -142,7 +142,6 @@
         cider-repl-wrap-history t
         cider-repl-history-size 1000
         cider-repl-history-file "~/.emacs.d/cider-repl.history")
-  (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
   (add-hook 'cider-repl-mode-hook 'smartparens-strict-mode)
   (add-hook 'cider-repl-mode-hook #'eldoc-mode))
 

@@ -54,6 +54,11 @@
   ("C-c a" . org-agenda)
   ("C-c c" . org-capture))
 
+(use-package org-bullets
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
 (use-package ox-reveal
   :ensure t
   :config
